@@ -1,0 +1,48 @@
+.result-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.result-card h2 {
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.result-card p {
+  color: #7a7a7a;
+  margin: 5px 0;
+}
+
+.result-card .score,
+.result-card .top-score {
+  background: #f9f9f9;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.result-card .score h3 {
+  color: #4caf50;
+  margin: 0;
+}
+
+.result-card .top-score span {
+  font-weight: bold;
+}
+
+.result-card .practice-more {
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.result-card .practice-more:hover {
+  background: #45a049;
+}
